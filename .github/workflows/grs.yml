@@ -25,7 +25,7 @@ jobs:
         uses: soulteary/github-readme-stats-action@v1.0.0
         with:
           card: stats
-          options: '{"username":"rohitkulkarni97","show_icons":true,"theme":"transparent","hide_border":true,"rank_icon":"github","custom_title":"Rohit Kulkarni GitHub Stats"}'
+          options: 'username=rohitkulkarni97&show_icons=true&theme=transparent&hide_border=true'
           path: profile/stats.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
@@ -33,7 +33,7 @@ jobs:
         uses: soulteary/github-readme-stats-action@v1.0.0
         with:
           card: top-langs
-          options: '{"username":"rohitkulkarni97","layout":"compact","langs_count":6,"theme":"transparent","hide_border":true,"custom_title":"Top Languages"}'
+          options: 'username=rohitkulkarni97&layout=compact&langs_count=6&theme=transparent&hide_border=true'
           path: profile/top-langs.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
