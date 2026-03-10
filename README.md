@@ -87,8 +87,8 @@ When I'm away from the keyboard, I usually spend time with:
 ## ⚙️ GitHub Analytics
 
 <p align="center">
-  <img src="./profile/stats.svg" alt="Rohit Kulkarni GitHub stats" width="48%" />
-  <img src="./profile/top-langs.svg" alt="Top languages" width="48%" />
+  <img src="./profile/stats.svg?v=2" alt="Rohit Kulkarni GitHub stats" width="56%" />
+  <img src="./profile/top-langs.svg?v=2" alt="Top languages" width="42%" />
 </p>
 
 ---
