@@ -16,11 +16,19 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Generate stats card
-        uses: readme-tools/github-readme-stats-action@v1
+        uses: soulteary/github-readme-stats-action@v1.0.0
         with:
           card: stats
-          options: username=rohitkulkarni97&show_icons=true&theme=transparent&hide_border=true&rank_icon=github&custom_title=Rohit%20Kulkarni%20GitHub%20Stats
+          options: 'username=rohitkulkarni97&show_icons=true&theme=transparent&hide_border=true&rank_icon=github&custom_title=Rohit%20Kulkarni%20GitHub%20Stats'
           path: profile/stats.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate top languages card
+        uses: soulteary/github-readme-stats-action@v1.0.0
+        with:
+          card: top-langs
+          options: 'username=rohitkulkarni97&layout=compact&langs_count=6&theme=transparent&hide_border=true&custom_title=Top%20Languages'
+          path: profile/top-langs.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Commit cards
