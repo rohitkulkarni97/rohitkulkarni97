@@ -245,7 +245,7 @@
   </g><g transform="translate(0, 50)">
     <g class="stagger" style="animation-delay: 1200ms">
       <circle cx="5" cy="6" r="5" fill="#dd1100" />
-      <text data-testid="lang-name" x="15" y="10" class="lang-name">Mathematica 0.48%</text>
+      <text data-testid="lang-name" x="15" y="10" class="lang-name">Wolfram Language 0.48%</text>
     </g>
   </g></g>
   </g>
